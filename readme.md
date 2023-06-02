@@ -1,7 +1,7 @@
 
 Usage:
  - gaze_on_landmarks.py can process one or all jsons in a given directory. The directory that contains jsons is /home/Pupilproject/PupilProject/OutputFiles/
- - add_landmarks_final.py processes facemeshes
+ - add_landmarks_final.py processes facemeshes. There is a paramater at the top of the file to define the threshold from which a point is considered on the face. This threshold is only used for the face and not other facial features because they're spaced close together and I've defined the facial features to be bigger than what it should be according to the mesh such that it should be valid.
  - landmark_test_3.py provides unit tests for each function. I've just used a facemesh chosen from one of our videos. The tests should also plot the points so you can see what's happening.
 
 Notes:
